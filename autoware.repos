@@ -52,15 +52,15 @@ repositories:
   universe/external/eagleye:
     type: git
     url: https://github.com/HelloWorldRobotics/eagleye.git
-    version: autoware-main
+    version: main-ros2
   universe/external/rtklib_ros_bridge:
     type: git
     url: https://github.com/HelloWorldRobotics/rtklib_ros_bridge.git
-    version: ros2-v0.1.0
+    version: master
   universe/external/llh_converter:
     type: git
     url: https://github.com/HelloWorldRobotics/llh_converter.git
-    version: ros2
+    version: main
   # launcher
   launcher/autoware_launch:
     type: git
