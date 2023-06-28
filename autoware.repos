@@ -77,8 +77,8 @@ repositories:
     version: ros2
   sensor_component/external/velodyne_vls:
     type: git
-    url: https://github.com/HelloWorldRobotics/velodyne_vls.git
-    version: tier4/universe
+    url: https://github.com/HelloWorldRobotics/awf_velodyne.git
+    version: awf/main
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
     type: git
