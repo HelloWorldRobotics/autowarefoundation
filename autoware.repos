@@ -69,15 +69,15 @@ repositories:
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
-    url: https://github.com/tier4/sensor_component_description.git
+    url: https://github.com/HelloWorldRobotics/sensor_component_description.git
     version: main
   sensor_component/external/tamagawa_imu_driver:
     type: git
-    url: https://github.com/tier4/tamagawa_imu_driver.git
+    url: https://github.com/HelloWorldRobotics/tamagawa_imu_driver.git
     version: ros2
   sensor_component/external/velodyne_vls:
     type: git
-    url: https://github.com/tier4/velodyne_vls.git
+    url: https://github.com/HelloWorldRobotics/velodyne_vls.git
     version: tier4/universe
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
@@ -105,7 +105,7 @@ repositories:
   # middleware
   middleware/external/heaphook:
     type: git
-    url: https://github.com/tier4/heaphook.git
+    url: https://github.com/HelloWorldRobotics/heaphook.git
     version: main
 
 # repositories:
