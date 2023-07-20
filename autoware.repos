@@ -56,11 +56,11 @@ repositories:
   universe/external/rtklib_ros_bridge:
     type: git
     url: https://github.com/HelloWorldRobotics/rtklib_ros_bridge.git
-    version: master
+    version: ros2-v0.1.0
   universe/external/llh_converter:
     type: git
     url: https://github.com/HelloWorldRobotics/llh_converter.git
-    version: main
+    version: ros2
   # launcher
   launcher/autoware_launch:
     type: git
