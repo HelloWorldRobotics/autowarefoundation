@@ -1,0 +1,42 @@
+name: Issue
+description: Add Issue for Bug Reporting or Feature Enhancement
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Write a brief description of the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: Describe the expected behavior.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Write the steps to reproduce the bug.
+      placeholder: |-
+        1.
+        2.
+        3.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Possible causes
+      description: Write the possible causes if you have any ideas.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Possible solutions
+      description: Write the possible solutions if you have any ideas.
+    validations:
+      required: false
+  
