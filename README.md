@@ -1,3 +1,44 @@
+# Node Diagram HelloWorld Robotics Version
+
+[### Click to View Node Diagram ###](Buggy_Navigation_Architecture.drawio) .
+-------------------------------
+
+# How to Launch EMERGE Project Buggy
+
+##### Step 1.
+In Terminal 1, run the alias which launches the sensor drivers:
+```
+bringup
+```
+
+##### Step 2.
+Note: docker version launches faster but doesn't work for rosbag now.
+
+In Terminal 2, run the alias which launches autoware (docker version):
+```
+start
+```
+
+or
+
+In Terminal 2, run the alias which launches autoware (source version):
+```
+autoware_uitm
+```
+
+##### Step 3.
+In Terminal 3, run the alias which launches the foxglove bridge:
+```
+foxglove
+```
+
+##### Step 4.
+In foxglove give /initialpose topic
+
+##### Step 5.
+In foxglove give /planning/mission_planning/goal topic
+
+-------------------------------
 # Autoware - the world's leading open-source software project for autonomous driving
 
 ![Autoware_RViz](https://user-images.githubusercontent.com/63835446/158918717-58d6deaf-93fb-47f9-891d-e242b02cba7b.png)
